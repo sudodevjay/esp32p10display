@@ -1,0 +1,26 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: esp32p10displayPCB1.PcbDoc   14-10-2026  12:34:38
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : esp32p10displayPCB1.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             12        PTH        0.85inch (21.71mm)
+T2      28mil (0.711mm)                                           Round             39        PTH        13.61inch (345.71mm)
+T3      30mil (0.75mm)                                            Round             4         PTH        1.09inch (27.58mm)
+T4      32mil (0.813mm)                                           Round             2         PTH        0.20inch (5.08mm)
+T5      33mil (0.85mm)                                            Round             4         PTH        1.15inch (29.24mm)
+T6      39mil (1mm)                                               Round             4         PTH        0.30inch (7.62mm)
+T7      40mil (1.02mm)                                            Round             16        PTH        1.80inch (45.72mm)
+T8      43mil (1.1mm)                                             Round             8         PTH        2.20inch (55.90mm)
+T9      47mil (1.2mm)                                             Round             3         PTH        0.30inch (7.62mm)
+T10     51mil (1.3mm)                                             Round             4         PTH        2.97inch (75.54mm)
+T11     55mil (1.4mm)                                             Round             2         PTH        0.15inch (3.81mm)
+T12     63mil (1.6mm)                                             Round             2         PTH        0.20inch (5.08mm)
+T13     126mil (3.2mm)                                            Round             4         PTH        10.77inch (273.56mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              104
+
+Total Processing Time (hh:mm:ss) : 00:00:00

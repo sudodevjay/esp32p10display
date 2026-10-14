@@ -1,0 +1,39 @@
+﻿Designators,MPN,Need,Chosen supplier,SKU,Match,Buy qty,Unit INR,Total INR,lcsc total INR,Notes
+C1,ECEA1EN100UI,6,,,,,,,,found but not enough stock: lcsc C1651165 (stock 0)
+"C2, C4, C5",CL21B104KCFNNNE,17,lcsc,C28233,exact,17,3.17,53.94,53.94,
+C3,ECA-1CM101,6,,,,,,,,found but not enough stock: lcsc C5114036 (stock 0)
+C6,TAJB106K016RNJ,6,lcsc,C7193,exact,6,18.73,112.39,112.39,
+C7,GRM31CR71C106KAC7L,6,,,,,,,,found but not enough stock: lcsc C167456 (stock 0)
+C8,C1206C104K5RACTU,6,lcsc,C41430990,exact,6,4.40,26.41,26.41,
+C9,C1206C105K5RACTU,6,lcsc,C2167287,exact,6,9.87,59.23,59.23,
+C10,CL21B104KCFNNNE,6,lcsc,C28233,exact,6,3.17,19.04,19.04,
+"C11, C13",C0805C102F3HACAUTO,11,,,,,,,,found but not enough stock: lcsc C1513233 (stock 0)
+"C12, C14, C15",CL21B104KCFNNNE,17,lcsc,C28233,exact,17,3.17,53.94,53.94,
+C16,ECQUAAF104M,6,,,,,,,,found but not enough stock: lcsc C178453 (stock 0)
+"D1, D2, D8",597-3305-607F,17,,,,,,,,found but not enough stock: lcsc C5906637 (stock 0)
+"D3, D4, D6",SMAJ7.5CA,17,lcsc,C908813,exact,17,3.00,51.02,51.02,
+D5,LL4148_L1G,6,lcsc,C571356,partial,6,0.67,4.00,4.00,
+D7,SMAJ5.0A,6,lcsc,C353442,exact,6,3.17,19.04,19.04,
+"F1, F2",MF-MSMF010-2,11,lcsc,C12430,exact,11,6.55,72.00,72.00,
+F3,TR5,6,,,,,,,,"found but not enough stock: lcsc C9900058659 (stock 0), lcsc C9900149342 (stock 0), lcsc C9900158251 (stock 0)"
+J1,TB007-508-02BE,6,lcsc,C3816270,exact,6,48.96,293.79,293.79,
+J2,68604-406HLF,6,,,,,,,,found but not enough stock: lcsc C3324477 (stock 0)
+J3,TSS-108-01-T-D,6,,,,,,,,found but not enough stock: lcsc C17418798 (stock 0)
+J4,284513-3,6,,,,,,,,"found but not enough stock: lcsc C3580833 (stock 0), lcsc C9900000231 (stock 0)"
+J5,TBP02R1-381-02BE,6,,,,,,,,found but not enough stock: lcsc C2895403 (stock 0)
+PS1,HLK-10M05,6,lcsc,C403745,exact,6,339.63,2037.75,1369.06,
+PS2,RFM-0505S,6,lcsc,C49231035,exact,6,155.13,930.75,930.75,
+"Q1, Q2",BC848C RFG,11,lcsc,C2926213,partial,11,0.86,9.43,9.43,
+Q3,SI2301CDS-T1-GE3,6,lcsc,C10487,exact,6,9.32,55.91,9.43,
+"R1, R2, R3",ERA6VRB1002V,17,,,,,,,,found but not enough stock: lcsc C1863100 (stock 0)
+"R4, R10",CRCW0805330RFKEAHP,11,lcsc,C313892,exact,11,8.12,89.30,89.30,
+"R5, R8, R9",CPF0805B1K0E,17,,,,,,,,"found but not enough stock: lcsc C2075247 (stock 0), lcsc C2076252 (stock 4)"
+"R6, R7, R11",CPF0805B10KE,17,lcsc,C6155611,exact,17,21.50,365.58,365.58,
+R12,CRCW0805150RFKEAHP,6,lcsc,C313835,exact,6,5.74,34.42,34.42,
+RT1,B57236S0509M000,6,lcsc,C3761585,exact,6,13.93,83.58,83.58,
+RV1,MOV-14D471K,6,lcsc,C1527439,exact,6,42.59,255.54,255.54,
+U1,ESP32-WROOM-32,6,lcsc,C701341,partial,6,357.03,2142.20,2142.20,
+U2,74HC14D,6,lcsc,C52140397,exact,6,13.33,79.98,55.22,
+U3,SN65176BDR,6,lcsc,C31302,exact,6,28.79,172.76,78.21,
+U4,ADUM1201CR,6,lcsc,C54423133,partial,6,58.29,349.75,349.75,
+VR1,LM1117IMPX-3.3/NOPB,6,lcsc,C23984,exact,6,23.60,141.61,95.99,

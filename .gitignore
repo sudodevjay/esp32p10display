@@ -1,0 +1,8 @@
+# Altium local history / caches / logs
+History/
+__Previews/
+Project Logs for */
+*.PrjPcbStructure
+*.~*
+# third-party datasheets downloaded by the sourcing tool (not ours to redistribute)
+Project Outputs for */Sourcing/datasheets/

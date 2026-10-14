@@ -1,0 +1,11 @@
+# keep Altium and fab files byte-exact
+*.SchDoc binary
+*.PcbDoc binary
+*.PcbLib binary
+*.SchLib binary
+*.BomDoc binary
+*.PrjPcb -text
+*.OutJob -text
+*.zip binary
+*.G* -text
+*.TXT -text
