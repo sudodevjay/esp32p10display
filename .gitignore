@@ -1,0 +1,8 @@
+# private / machine-local
+keys.json
+work/
+# generated (python -m autotool lib-index rebuilds it)
+library_catalog.json
+__pycache__/
+*.pyc
+tests/LedBoardTest/

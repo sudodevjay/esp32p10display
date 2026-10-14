@@ -1,0 +1,85 @@
+{
+ "name": "LedBoardTest",
+ "dir": "D:\\pcb\\altium_autotool\\tests\\LedBoardTest",
+ "board": {
+  "width": 1400,
+  "height": 900,
+  "clearance": 10
+ },
+ "parts": [
+  {
+   "des": "J1",
+   "ref": "TBP02R138102BE",
+   "lib": "D:\\pcb\\pcblibrary\\Libraries\\2 Pin Terminal Block HDR 3.81MM THT RA TBP02R138102BE.IntLib",
+   "comment": "5V IN",
+   "pcb": {
+    "x": 150,
+    "y": 450,
+    "rot": 270,
+    "fixed": true
+   }
+  },
+  {
+   "des": "U1",
+   "ref": "AMS1117-3.3",
+   "lib": "D:\\pcb\\pcblibrary\\Libraries\\AMS1117-3.3.IntLib",
+   "comment": "AMS1117-3.3"
+  },
+  {
+   "des": "C1",
+   "ref": "CL21B104KCFNNNE",
+   "lib": "D:\\pcb\\pcblibrary\\Libraries\\Capacitor_0805.IntLib",
+   "comment": "100nF"
+  },
+  {
+   "des": "C2",
+   "ref": "CL21B104KCFNNNE",
+   "lib": "D:\\pcb\\pcblibrary\\Libraries\\Capacitor_0805.IntLib",
+   "comment": "100nF"
+  },
+  {
+   "des": "R1",
+   "ref": "ERA6VRB1002V",
+   "lib": "D:\\pcb\\pcblibrary\\Libraries\\Resistor_10K_0805_5%.IntLib",
+   "comment": "1k"
+  },
+  {
+   "des": "D1",
+   "ref": "APT2012SRCPRV",
+   "lib": "D:\\pcb\\pcblibrary\\Libraries\\LED-0805.IntLib",
+   "comment": "RED"
+  }
+ ],
+ "nets": {
+  "+5": [
+   "J1.1",
+   "U1.3",
+   "C1.1"
+  ],
+  "GND": [
+   "J1.2",
+   "U1.1",
+   "C1.2",
+   "C2.2",
+   "D1.C"
+  ],
+  "3V3": [
+   "U1.2",
+   "C2.1",
+   "R1.1"
+  ],
+  "LED_A": [
+   "R1.2",
+   "D1.A"
+  ]
+ },
+ "net_widths": {
+  "+5": 20,
+  "GND": 20,
+  "3V3": 20
+ },
+ "pour": {
+  "net": "GND",
+  "layer": "bottom"
+ }
+}

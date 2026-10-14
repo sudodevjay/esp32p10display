@@ -1,0 +1,4 @@
+*.SchDoc binary
+*.PcbDoc binary
+*.OutJob -text
+*.zip binary
