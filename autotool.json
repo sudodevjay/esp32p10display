@@ -1,12 +1,69 @@
 {
   "clearance_mil": 10,
   "net_classes": [
-    {"name": "MAINS", "nets": ["NetF3_1", "AC_L_F", "AC_L_PS", "AC_N"], "self_mil": 100, "other_mil": 240},
-    {"name": "ISO", "nets": ["ISO_5V", "ISO_GND", "ISO_TX", "ISO_RX", "NetC11_1", "NetC13_2", "NetF1_2", "NetF2_2", "NetD1_A", "NetD2_A",
-                             "NetR4_1", "NetR10_1", "NetD5_A", "DI", "RO", "DE/RE"], "self_mil": 10, "other_mil": 60}
+    {
+      "name": "MAINS",
+      "nets": [
+        "NetF3_1",
+        "AC_L_F",
+        "AC_L_PS",
+        "AC_N",
+        "RLY_NO",
+        "RLY_COM",
+        "RLY_NC"
+      ],
+      "self_mil": 100,
+      "other_mil": 240
+    },
+    {
+      "name": "ISO",
+      "nets": [
+        "ISO_5V",
+        "ISO_GND",
+        "ISO_TX",
+        "ISO_RX",
+        "NetC11_1",
+        "NetC13_2",
+        "NetF1_2",
+        "NetF2_2",
+        "NetD1_A",
+        "NetD2_A",
+        "NetR4_1",
+        "NetR10_1",
+        "NetD5_A",
+        "DI",
+        "RO",
+        "DE/RE",
+        "IN1_NO",
+        "IN1_NC",
+        "IN1_COM",
+        "IN1_SIG",
+        "IN2_NO",
+        "IN2_NC",
+        "IN2_COM",
+        "IN2_SIG"
+      ],
+      "self_mil": 10,
+      "other_mil": 60
+    }
   ],
-  "exempt_components": ["U4", "PS2", "PS1"],
-  "ignore_unconnected_pads": ["U1", "J3", "MH1", "MH2", "MH3", "MH4", "U2"],
+  "exempt_components": [
+    "U4",
+    "PS2",
+    "PS1",
+    "U5",
+    "U6",
+    "K1"
+  ],
+  "ignore_unconnected_pads": [
+    "U1",
+    "J3",
+    "MH1",
+    "MH2",
+    "MH3",
+    "MH4",
+    "U2"
+  ],
   "outline_layer": "GM1",
   "zip_name": "esp32p10display_Gerber_{date}.zip"
 }
