@@ -39,3 +39,10 @@
 - Check the VR1 (LM1117) temperature with WiFi and Ethernet both active; above ~90 C a buck regulator is the next step.
 
 Checks and outputs were produced with the `altium_autotool` branch of this repository.
+
+## Opening the project on another computer
+
+1. Install Altium Designer 24 (or newer; built with 24.5.2) and `git clone` this repository.
+2. Open `esp32p10displayProject.PrjPcb`. All component libraries this design uses are in `Libraries/` and are already attached to the project (Projects panel > Libraries), so symbols, footprints and 3D models resolve without any extra setup.
+3. 18 parts originally came from a private database library ("Celestial Altium Library"). That database is not included; those parts keep their symbol and footprint inside the schematic and PCB, so everything works. Just do not run "Update from database" on them.
+4. To order the board you do not need Altium: use `Project Outputs for esp32p10displayProject/` (Gerber zip, `BOM/` with BOM, JLCPCB BOM + CPL, and `Component_Order_List_*.xlsx` with the purchase list).
