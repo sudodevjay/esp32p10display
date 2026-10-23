@@ -1,6 +1,6 @@
 # esp32p10displayProject - AutoTool report
 
-Generated 2026-10-23 09:55
+Generated 2026-10-23 10:41
 
 ## Verdict: NOT READY
 
@@ -18,8 +18,8 @@ Generated 2026-10-23 09:55
 | Board edge (own) | 0 |
 | Track ends touching nothing | 8 (warning) |
 | Pads without a net | 14 (warning) |
-| Altium DRC | 45 violations (23-10-2026 07:01:16) |
-| Altium ERC | 0 errors, 16 warnings (23-10-2026 07:01:18) |
+| Altium DRC | 45 violations (23-10-2026 10:41:11) |
+| Altium ERC | 0 errors, 16 warnings (23-10-2026 10:41:14) |
 
 ### Netlist differences
 
@@ -129,3 +129,12 @@ Generated 2026-10-23 09:55
 - Warning esp32p10displaySheet2.SchDoc Net NetD5_A has no driving source (Pin D5-A, Pin R8-1, Pin U2-11)
 - Warning esp32p10displaySheet1.SchDoc Off grid Net Label AC_N at 1165.476mil,8700mil
 - Warning esp32p10displaySheet2.SchDoc Off grid Net Label DI at 3706.922mil,5500mil
+
+## Files
+
+- Gerber zip (upload to fab): `C:\Users\Public\Documents\Altium\esp32p10displayProject\Project Outputs for esp32p10displayProject\esp32p10display_Gerber_2026-10-23.zip`
+- BOM: `C:\Users\Public\Documents\Altium\esp32p10displayProject\Project Outputs for esp32p10displayProject\BOM\esp32p10displayProject_BOM_2026-10-23.csv`
+- BOM (JLCPCB format): `C:\Users\Public\Documents\Altium\esp32p10displayProject\Project Outputs for esp32p10displayProject\BOM\esp32p10displayProject_BOM_JLCPCB_2026-10-23.csv`
+- CPL (JLCPCB format): `C:\Users\Public\Documents\Altium\esp32p10displayProject\Project Outputs for esp32p10displayProject\BOM\esp32p10displayProject_CPL_JLCPCB_2026-10-23.csv`
+- render top: `C:\Users\Public\Documents\Altium\esp32p10displayProject\Project Outputs for esp32p10displayProject\Renders\render_top.png`
+- render bottom: `C:\Users\Public\Documents\Altium\esp32p10displayProject\Project Outputs for esp32p10displayProject\Renders\render_bottom.png`

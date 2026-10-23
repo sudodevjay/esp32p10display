@@ -1,9 +1,9 @@
 ﻿Sr,Component,Designators,Pieces per board,Part number (as bought),Website,Quantity (in cart),Price per piece (Rs),Overall price (Rs) = qty x price,Price basis,Note
-1,Resistor 10k 0805 1%,"R1,R2,R3,R6,R7,R11,R14,R18,R19,R20,R21,R22,R32,R35",14,RC0805FR-0710KL,Sharvi Electronics,78,0.7,54.37,ex-GST (18% GST extra),
+1,Resistor 10k 0805 1%,"R1,R2,R3,R6,R11,R14,R18,R19,R20,R21,R22,R32,R35",13,RC0805FR-0710KL,Sharvi Electronics,72,0.7,50.18,ex-GST (18% GST extra),
 2,Resistor 1k 0805 1%,"R8,R13,R15,R16,R17,R31,R33,R34,R36",9,0805S8F1001T5E,Sharvi Electronics,50,0.7,34.85,ex-GST (18% GST extra),
-3,Resistor 470R 0805 1%,"R5,R9",2,0805W8F4700T5E,Sharvi Electronics,20,0.76,15.13,ex-GST (18% GST extra),RS485 bias; min order 20
+3,Resistor 120R 0805 1%,R7,1,RC0805FR-07120RL,Sharvi Electronics,20,0.73,14.62,ex-GST (18% GST extra),RS485 on-board terminator between A and B; min order 20
 4,Resistor 47R 0805 1%,"R39,R40,R41,R42",4,0805W8F470JT5E,Sharvi Electronics,22,0.7,15.33,ex-GST (18% GST extra),SPI series resistors
-5,Resistor 330R 0805 1%,"R4,R10,R29,R30",4,RC0805FR-07330RL,Sharvi Electronics,22,0.73,16.08,ex-GST (18% GST extra),
+5,Resistor 330R 0805 1%,"R4,R5,R9,R10,R29,R30",6,RC0805FR-07330RL,Sharvi Electronics,33,0.73,24.12,ex-GST (18% GST extra),"R5,R9 = RS485 bias resistors"
 6,Resistor 150R 0805 1%,R12,1,RC0805FR-07150RL,Sharvi Electronics,20,0.7,13.94,ex-GST (18% GST extra),min order 20
 7,Resistor 49.9R 0805 1%,"R24,R25,R26,R27",4,RC0805FR-0749R9L,Sharvi Electronics,22,2.42,53.3,ex-GST (18% GST extra),
 8,Resistor 10R 0805 1%,R28,1,0805S8F100JT5E,Sharvi Electronics,20,0.7,13.94,ex-GST (18% GST extra),min order 20

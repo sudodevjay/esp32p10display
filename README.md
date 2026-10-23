@@ -36,7 +36,7 @@ Gerber, BOM, CPL, Excel purchase list and board images are all in [`Order_Files/
 
 ## Notes for use
 
-- RS485: at most one 120 ohm termination on the bus, baud rate up to 38400.
+- RS485: this board has its own 120 ohm terminator (R7) between A and B, so no external resistor is needed. At most two boards/terminators on one bus (the two ends); for a board in the middle of a bus fit R7 = 10k instead of 120 ohm. Baud rate up to 38400.
 - Do not connect mains and the 5 V DC input at the same time.
 - First power-up: check 5 V, 3V3 and ISO_5V (<= 5.5 V) before fitting the ESP32.
 - W5500 SPI: 47 ohm series resistors R39 (SCLK), R40 (MISO), R41 (MOSI), R42 (CS) damp the ringing; no firmware change is needed (SPI up to 20 MHz at the default drive strength).
