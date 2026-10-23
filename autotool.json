@@ -10,7 +10,13 @@
         "AC_N",
         "RLY_NO",
         "RLY_COM",
-        "RLY_NC"
+        "RLY_NC",
+        "RLY2_NO",
+        "RLY2_COM",
+        "RLY2_NC",
+        "RLY3_NO",
+        "RLY3_COM",
+        "RLY3_NC"
       ],
       "self_mil": 100,
       "other_mil": 240

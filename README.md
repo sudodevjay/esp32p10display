@@ -15,7 +15,7 @@
 |---|---|
 | `esp32p10displayProject.PrjPcb` | Altium project |
 | `esp32p10displaySheet1.SchDoc`, `esp32p10displaySheet2.SchDoc`, `esp32p10displaySheet3.SchDoc` | schematics (main, isolated RS485 + inputs, Ethernet) |
-| `esp32p10displayPCB1.PcbDoc` | PCB, 95.5 x 140.8 mm |
+| `esp32p10displayPCB1.PcbDoc` | PCB, 95.5 x 153.5 mm |
 | `Project Outputs for esp32p10displayProject/esp32p10display_Gerber_2026-10-19.zip` | Gerber + drill for the fab (JLCPCB) |
 | `Project Outputs .../BOM/` | BOM, JLCPCB BOM + CPL |
 | `Project Outputs .../Simulation/` | ngspice results: power, relay, RS485, inputs, LAN, SPI |
@@ -35,7 +35,7 @@
 - RS485: at most one 120 ohm termination on the bus, baud rate up to 38400.
 - Do not connect mains and the 5 V DC input at the same time.
 - First power-up: check 5 V, 3V3 and ISO_5V (<= 5.5 V) before fitting the ESP32.
-- W5500 SPI: keep SCLK <= 20 MHz and set the ESP32 drive strength of GPIO2/33/27 to `GPIO_DRIVE_CAP_0` (the 52 mm SCLK trace rings at full drive).
+- W5500 SPI: 47 ohm series resistors R39 (SCLK), R40 (MISO), R41 (MOSI), R42 (CS) damp the ringing; no firmware change is needed (SPI up to 20 MHz at the default drive strength).
 - Check the VR1 (LM1117) temperature with WiFi and Ethernet both active; above ~90 C a buck regulator is the next step.
 
 Checks and outputs were produced with the `altium_autotool` branch of this repository.

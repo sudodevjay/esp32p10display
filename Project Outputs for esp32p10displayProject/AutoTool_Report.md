@@ -1,25 +1,25 @@
 # esp32p10displayProject - AutoTool report
 
-Generated 2026-10-19 15:14
+Generated 2026-10-23 07:02
 
 ## Verdict: NOT READY
 
 - schematic and PCB netlists differ (6)
-- 36 copper clearance violations
-- Altium DRC: 51 violations
+- 57 copper clearance violations
+- Altium DRC: 45 violations
 
 ## Checks
 
 | Check | Result |
 |---|---|
 | Netlist schematic vs PCB | 6 differences |
-| Copper clearance (own) | 36 violations |
+| Copper clearance (own) | 57 violations |
 | Open nets (own) | 0 |
 | Board edge (own) | 0 |
-| Track ends touching nothing | 0 (warning) |
+| Track ends touching nothing | 8 (warning) |
 | Pads without a net | 14 (warning) |
-| Altium DRC | 51 violations (19-10-2026 15:14:05) |
-| Altium ERC | 0 errors, 13 warnings (19-10-2026 15:14:07) |
+| Altium DRC | 45 violations (23-10-2026 07:01:16) |
+| Altium ERC | 0 errors, 16 warnings (23-10-2026 07:01:18) |
 
 ### Netlist differences
 
@@ -32,6 +32,22 @@ Generated 2026-10-19 15:14
 
 ### Clearance violations
 
+- other-MAINS 172.8 < 240 mil: pad K3-COIL2 <-> track RLY3_COM L32 (3255,1850)-(4210,1850)
+- other-MAINS 172.3 < 240 mil: pad K3-COIL2 <-> pad K3-COM
+- other-MAINS 172.8 < 240 mil: pad K3-COIL2 <-> track RLY3_COM L1 (3255,1850)-(4210,1850)
+- MAINS-other 204.7 < 240 mil: pad K3-COM <-> track NetD15_A L1 (3334,1560)-(3334,1614)
+- MAINS-other 172.3 < 240 mil: pad K3-COM <-> pad K3-COIL1
+- MAINS-other 204.7 < 240 mil: pad K3-COM <-> track +5 L1 (3334,2086)-(3334,2140)
+- other-MAINS 172.8 < 240 mil: pad K3-COIL1 <-> track RLY3_COM L32 (3255,1850)-(4210,1850)
+- other-MAINS 172.8 < 240 mil: pad K3-COIL1 <-> track RLY3_COM L1 (3255,1850)-(4210,1850)
+- other-MAINS 172.3 < 240 mil: pad K2-COIL2 <-> pad K2-COM
+- other-MAINS 172.8 < 240 mil: pad K2-COIL2 <-> track RLY2_COM L1 (3255,2500)-(4210,2500)
+- other-MAINS 172.8 < 240 mil: pad K2-COIL2 <-> track RLY2_COM L32 (3255,2500)-(4210,2500)
+- MAINS-other 204.7 < 240 mil: pad K2-COM <-> track NetD13_A L1 (3334,2210)-(3334,2264)
+- MAINS-other 172.3 < 240 mil: pad K2-COM <-> pad K2-COIL1
+- MAINS-other 204.7 < 240 mil: pad K2-COM <-> track +5 L1 (3334,2736)-(3334,2790)
+- other-MAINS 172.8 < 240 mil: pad K2-COIL1 <-> track RLY2_COM L1 (3255,2500)-(4210,2500)
+- other-MAINS 172.8 < 240 mil: pad K2-COIL1 <-> track RLY2_COM L32 (3255,2500)-(4210,2500)
 - clearance 8.7 < 10 mil: pad U7-48 <-> pad U7-47
 - clearance 8.7 < 10 mil: pad U7-43 <-> pad U7-42
 - clearance 8.7 < 10 mil: pad U7-38 <-> pad U7-37
@@ -66,8 +82,17 @@ Generated 2026-10-19 15:14
 - clearance 8.7 < 10 mil: pad U7-6 <-> pad U7-5
 - clearance 8.7 < 10 mil: pad U7-5 <-> pad U7-4
 - clearance 8.7 < 10 mil: pad U7-4 <-> pad U7-3
-- clearance 8.7 < 10 mil: pad U7-3 <-> pad U7-2
-- clearance 8.7 < 10 mil: pad U7-2 <-> pad U7-1
+
+### Track ends touching nothing (check: may end inside a pour on another layer)
+
+- SGND L1 at (1710.0, 1005.0)
+- SGND L1 at (1045.0787, 790.0)
+- NetD15_A L1 at (3334.0, 1560.0)
+- NetD13_A L1 at (3334.0, 2210.0)
+- NetD9_A L1 at (3334.0, 2860.0)
+- SGND L1 at (1637.5, 1222.5)
+- GND L1 at (2820.0, 3118.4)
+- ISO_5V L32 at (2850.0, 3610.0)
 
 ### Pads without a net
 
@@ -88,13 +113,16 @@ Generated 2026-10-19 15:14
 
 ### Altium ERC warnings
 
-- Warning esp32p10displaySheet1.SchDoc ETH_MISO contains IO Pin and Output Pin objects (Pin U1-8, Pin U7-34).
-- Warning esp32p10displaySheet1.SchDoc Net +5 has no driving source (Pin C3-P, Pin C5-2, Pin D7-C, Pin D9-C, Pin K1-COIL1, Pin PS1-4, Pin PS2-2, Pin Q3-2, Pin VR1-3)
+- Warning esp32p10displaySheet1.SchDoc Net +5 has no driving source (Pin C3-P, Pin C5-2, Pin D7-C, Pin D9-C, Pin D13-C, Pin D15-C, Pin K1-COIL1, Pin K2-COIL1, Pin K3-COIL1, Pin PS1-4, Pin PS2-2, Pin Q3-2, Pin VR1-3)
 - Warning esp32p10displaySheet1.SchDoc Net AC_L_PS has no driving source (Pin C16-1, Pin PS1-2, Pin RT1-2)
 - Warning esp32p10displaySheet1.SchDoc Net EN has no driving source (Pin C9-1, Pin Q2-3, Pin R1-2, Pin U1-3)
+- Warning esp32p10displaySheet3.SchDoc Net ETH_CS has no driving source (Pin R20-1, Pin R42-2, Pin U7-32)
 - Warning esp32p10displaySheet1.SchDoc Net ETH_INT has no driving source (Pin R21-1, Pin U1-4, Pin U7-36)
+- Warning esp32p10displaySheet3.SchDoc Net ETH_MOSI has no driving source (Pin R41-2, Pin U7-35)
+- Warning esp32p10displaySheet3.SchDoc Net ETH_RST has no driving source (Pin C35-1, Pin R22-1, Pin U7-37)
 - Warning esp32p10displaySheet3.SchDoc Net ETH_RXN has no driving source (Pin C31-2, Pin R27-1, Pin U7-5)
 - Warning esp32p10displaySheet3.SchDoc Net ETH_RXP has no driving source (Pin C30-2, Pin R26-1, Pin U7-6)
+- Warning esp32p10displaySheet3.SchDoc Net ETH_SCLK has no driving source (Pin R39-2, Pin U7-33)
 - Warning esp32p10displaySheet3.SchDoc Net ETH_XI has no driving source (Pin C32-1, Pin U7-30, Pin Y1-2)
 - Warning esp32p10displaySheet1.SchDoc Net IN1 has no driving source (Pin C17-1, Pin R18-1, Pin U1-6, Pin U5-4)
 - Warning esp32p10displaySheet1.SchDoc Net IN2 has no driving source (Pin C18-1, Pin R19-1, Pin U1-7, Pin U6-4)
