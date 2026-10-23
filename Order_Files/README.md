@@ -1,6 +1,6 @@
 # Order files (everything in one place)
 
-> **Parts list = P10-display-only build.** The PCB is the full board (same Gerber), but the purchase list and `Component_Order_List` cover only the parts needed to run the P10 display: ESP32 + P10 connector + 5V/3V3 power + programming/auto-reset + PWR LED. RS485, Ethernet, relay, input and EEPROM parts are left unfitted (list on sheet 'Not fitted (DNP)'). `BOM_full.csv` is the BOM of the whole board.
+> **Parts list = P10-display-only build.** The PCB is the full board (same Gerber), but the purchase list and `Component_Order_List` cover only the parts needed to run the P10 display: ESP32 + P10 connector + 5V DC input (J5, from an external SMPS) + 3V3 + programming/auto-reset + PWR LED. The AC mains input (HLK etc.), RS485, Ethernet, relay, input and EEPROM parts are left unfitted (list on sheet 'Not fitted (DNP)'). `BOM_full.csv` is the BOM of the whole board.
 
 | File | What it is |
 |---|---|
