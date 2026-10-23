@@ -1,43 +1,15 @@
 ﻿Sr,Component,Designators,Pieces per board,Part number (as bought),Website,Quantity (in cart),Price per piece (Rs),Overall price (Rs) = qty x price,Price basis,Note
-1,Resistor 10k 0805 1%,"R1,R2,R3,R6,R11,R14,R18,R19,R20,R21,R22,R32,R35",13,RC0805FR-0710KL,Sharvi Electronics,72,0.7,50.18,ex-GST (18% GST extra),
-2,Resistor 1k 0805 1%,"R8,R13,R15,R16,R17,R31,R33,R34,R36",9,0805S8F1001T5E,Sharvi Electronics,50,0.7,34.85,ex-GST (18% GST extra),
-3,Resistor 120R 0805 1%,R7,1,RC0805FR-07120RL,Sharvi Electronics,20,0.73,14.62,ex-GST (18% GST extra),RS485 on-board terminator between A and B; min order 20
-4,Resistor 47R 0805 1%,"R39,R40,R41,R42",4,0805W8F470JT5E,Sharvi Electronics,22,0.7,15.33,ex-GST (18% GST extra),SPI series resistors
-5,Resistor 330R 0805 1%,"R4,R5,R9,R10,R29,R30",6,RC0805FR-07330RL,Sharvi Electronics,33,0.73,24.12,ex-GST (18% GST extra),"R5,R9 = RS485 bias resistors"
-6,Resistor 150R 0805 1%,R12,1,RC0805FR-07150RL,Sharvi Electronics,20,0.7,13.94,ex-GST (18% GST extra),min order 20
-7,Resistor 49.9R 0805 1%,"R24,R25,R26,R27",4,RC0805FR-0749R9L,Sharvi Electronics,22,2.42,53.3,ex-GST (18% GST extra),
-8,Resistor 10R 0805 1%,R28,1,0805S8F100JT5E,Sharvi Electronics,20,0.7,13.94,ex-GST (18% GST extra),min order 20
-9,Resistor 4.7k 0805 1%,"R37,R38",2,CR-05FTP-4K7,Sharvi Electronics,20,0.7,13.94,ex-GST (18% GST extra),min order 20
-10,Capacitor 100nF 16V 0805,"C10,C12,C14,C15,C17,C18,C19,C20,C21,C22,C24,C35,C36",13,CC0805KRX7R7B (0.1uF 16V),Sharvi Electronics,72,1.38,99.17,ex-GST (18% GST extra),
-11,Capacitor 100nF 100V 0805,"C2,C4,C5",3,CC0805KKX7R0BB104,Sharvi Electronics,17,4.62,78.49,ex-GST (18% GST extra),
-12,Capacitor 1nF 100V 0805,"C11,C13",2,CC0805KRX7R0BB102,Sharvi Electronics,11,2.18,24.01,ex-GST (18% GST extra),
-13,Capacitor 10uF 25V 0805,"C23,C25",2,CC0805KKX7R8BB106,Sharvi Electronics,11,2.64,29.02,ex-GST (18% GST extra),
-14,Capacitor 10nF 100V 0805,"C27,C29",2,CC0805KRX7R0BB103,Sharvi Electronics,20,2.76,55.29,ex-GST (18% GST extra),min order 20
-15,Capacitor 22nF 100V 0805,C28,1,CC0805KRX7R0BB223,Sharvi Electronics,10,2.18,21.83,ex-GST (18% GST extra),min order 10
-16,Capacitor 27pF 50V 0805,"C32,C33",2,0805N270J500CT,Sharvi Electronics,11,2.07,22.73,ex-GST (18% GST extra),
-17,Capacitor 10uF 16V 1206,C7,1,1206X106K160CT,Sharvi Electronics,10,3.83,38.32,ex-GST (18% GST extra),min order 10
-18,Capacitor 1uF 16V 1206,C9,1,CC1206KKX7R7BB105,Sharvi Electronics,10,2.83,28.32,ex-GST (18% GST extra),min order 10
-19,Capacitor 4.7uF 25V 0805,C26,1,0805X475K250CT,Sharvi Electronics,20,2.06,41.13,ex-GST (18% GST extra),min order 20
-20,Capacitor 6.8nF 50V 0805,"C30,C31",2,0805B682K500CT,Sharvi Electronics,20,2.59,51.8,ex-GST (18% GST extra),min order 20
-21,Varistor MOV 14D471K,RV1,1,MOV-14D471K,Sharvi Electronics,6,14.53,87.18,ex-GST (18% GST extra),
-22,RJ45 magjack,J9,1,HR911105A,Sharvi Electronics,6,117.78,706.68,ex-GST (18% GST extra),
-23,Female header 2x8 2.54mm,J3,1,2X8 16Pin Female Berg Strip,Sharvi Electronics,6,11.92,71.52,ex-GST (18% GST extra),P10 panel connector
-24,Screw terminal 3-pin 5.08mm,"J6,J7,J8,J10,J11",5,ZB228-3Pin,Sharvi Electronics,28,9.92,277.76,ex-GST (18% GST extra),"Substitute for Wurth 691236510003 (same pitch, body differs)"
-25,Male header 1x32 2.54mm (break to 3-pin),"JP1,JP2",2,32x1 Pin Male Berg Header,Sharvi Electronics,2,5.55,11.1,ex-GST (18% GST extra),Strips; break into 3-pin pieces
-26,Right-angle male header 7x1 2.54mm (use 6 pins),J2,1,7x1 7Pin Male Right Angle,Sharvi Electronics,6,5.18,31.08,ex-GST (18% GST extra),FTDI programming header
-27,MOSFET P-ch SI2301,Q3,1,SI2301CDS-T1-GE3,Sharvi Electronics,6,24.69,148.14,ex-GST (18% GST extra),
-28,Optocoupler EL817 SMD,"U5,U6",2,EL817S1(C)(TU)-F,Sharvi Electronics,11,7.45,81.95,ex-GST (18% GST extra),"C-grade instead of A-grade (higher CTR, OK)"
-29,LDO 3.3V SOT-223,VR1,1,LM1117GS 3.3V,Sharvi Electronics,6,13.75,82.5,ex-GST (18% GST extra),Generic LM1117-3.3 instead of TI LM1117IMPX-3.3
-30,Relay 5V SPDT 10A,"K1,K2,K3",3,SRD-05VDC-SL-C,Sharvi Electronics,17,46.78,795.26,ex-GST (18% GST extra),
-31,Ethernet controller,U7,1,WIZnet W5500 (LQFP-48),Sharvi Electronics,6,197.42,1184.52,ex-GST (18% GST extra),
-32,Digital isolator,U4,1,ADUM1201ARZ,Sharvi Electronics,6,423.63,2541.78,ex-GST (18% GST extra),A-grade (1 Mbps) instead of C-grade; fine for 38400 baud
-33,Transistor NPN SOT-23,"Q1,Q2,Q4,Q5,Q6",5,BC848 30V 100mA,Sharvi Electronics,28,3.46,96.88,ex-GST (18% GST extra),
-34,RS485 transceiver SOIC-8,U3,1,SN75176BDR,Sharvi Electronics,6,43.77,262.62,ex-GST (18% GST extra),"Substitute for SN65176BDR (same pinout, commercial temp)"
-35,5V 10W AC-DC module,PS1,1,HLK-10M05,Robu.in,6,322,1932,incl. GST,
-36,TVS diode bidirectional 7.5V,"D3,D4,D6",3,SMAJ7.5CA (Slkor),Robu.in,17,2.01,34.17,incl. GST,
-37,TVS diode 5V unidirectional,D7,1,SMAJ5.0A (Littelfuse),Robu.in,6,21,126,incl. GST,
-38,Diode LL4148 (LL-34 MELF),"D5,D9,D11,D12,D13,D15",6,LL4148-GS08 (Vishay),Robu.in,33,1.33,43.89,incl. GST,
-39,LED 0805 green (yellow-green 571nm),"D1,D2,D8",3,LTST-C171KGKT (Lite-On),Robu.in,17,2.27,38.59,incl. GST,
-40,LED 0805 red,"D10,D14,D16",3,LTST-C171KRKT (Lite-On),Robu.in,17,1.38,23.46,incl. GST,
-41,Hex Schmitt inverter SOIC-14,U2,1,SN74HC14DR,Robu.in,6,19,114,incl. GST,
-42,EEPROM 512Kbit I2C SOIC-8,U8,1,AT24C512C-SSHD-T (Microchip),Robu.in,6,66,396,incl. GST,
+1,Resistor 10k 0805 1%,"R1,R2,R3",3,RC0805FR-0710KL,Sharvi Electronics,20,0.82,16.4,ex-GST,ESP32 EN pull-up + auto-reset bases; min order 20
+2,Resistor 150R 0805 1%,R12,1,RC0805FR-07150RL,Sharvi Electronics,20,0.82,16.4,ex-GST,PWR LED resistor; min order 20
+3,Capacitor 100nF 100V 0805,"C4,C5",2,CC0805KKX7R0BB104,Sharvi Electronics,11,4.76,52.36,ex-GST,LM1117 in/out decoupling
+4,Capacitor 10uF 16V 1206,C7,1,1206X106K160CT,Sharvi Electronics,10,3.95,39.5,ex-GST,3V3 bulk; min order 10
+5,Capacitor 1uF 16V 1206,C9,1,CC1206KKX7R7BB105,Sharvi Electronics,10,2.92,29.2,ex-GST,EN delay cap; min order 10
+6,Varistor MOV 14D471K,RV1,1,MOV-14D471K,Sharvi Electronics,6,14.53,87.18,ex-GST,Mains input protection
+7,Female header 2x8 2.54mm,J3,1,2X8 16Pin Female Berg Strip,Sharvi Electronics,6,11.92,71.52,ex-GST,P10 panel connector
+8,Right-angle male header 7x1 2.54mm (use 6 pins),J2,1,7x1 7Pin Male Right Angle,Sharvi Electronics,6,5.18,31.08,ex-GST,FTDI programming header
+9,MOSFET P-ch SI2301,Q3,1,SI2301CDS-T1-GE3,Sharvi Electronics,6,24.69,148.14,ex-GST,5V DC input reverse-polarity protection
+10,LDO 3.3V SOT-223,VR1,1,LM1117GS 3.3V,Sharvi Electronics,6,13.75,82.5,ex-GST,Generic LM1117-3.3 instead of TI LM1117IMPX-3.3
+11,Transistor NPN SOT-23,"Q1,Q2",2,BC848 30V 100mA,Sharvi Electronics,11,3.46,38.06,ex-GST,"Auto-reset / auto-boot (DTR, RTS)"
+12,5V 10W AC-DC module,PS1,1,HLK-10M05,Robu.in,6,322.0,1932.0,incl. GST,
+13,TVS diode 5V unidirectional,D7,1,SMAJ5.0A (Littelfuse),Robu.in,6,21.0,126.0,incl. GST,5V rail protection
+14,LED 0805 green (yellow-green 571nm),D8,1,LTST-C171KGKT (Lite-On),Robu.in,6,2.27,13.62,incl. GST,PWR LED

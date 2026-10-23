@@ -1,5 +1,7 @@
 # Order files (everything in one place)
 
+> **Parts list = P10-display-only build.** The PCB is the full board (same Gerber), but the purchase list and `Component_Order_List` cover only the parts needed to run the P10 display: ESP32 + P10 connector + 5V/3V3 power + programming/auto-reset + PWR LED. RS485, Ethernet, relay, input and EEPROM parts are left unfitted (list on sheet 'Not fitted (DNP)'). `BOM_full.csv` is the BOM of the whole board.
+
 | File | What it is |
 |---|---|
 | [esp32p10display_Gerber_2026-10-23.zip](esp32p10display_Gerber_2026-10-23.zip) | Gerber + drill, upload this to a PCB fab (JLCPCB: 2-layer, 95.5 x 153.52 mm, 1.6 mm) |
