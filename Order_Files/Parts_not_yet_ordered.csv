@@ -1,0 +1,18 @@
+﻿Sr,Component,Designators,Pieces per board,Part number needed,Quantity needed (5 boards + spare),"Reference price per piece (Rs, LCSC)",Reference total (Rs),Status / note
+1,ESP32 module,U1,1,ESP32-WROOM-32,6,356.19,2137.14,LCSC C701341 (reference price)
+2,DC-DC isolated 5V 1W,PS2,1,RFM-0505S,6,154.77,928.62,LCSC C49231035 (reference price)
+3,PTC resettable fuse 1812,"F1,F2",2,MF-MSMF010-2,11,6.38,70.18,Robu: out of stock. LCSC C12430 (reference)
+4,Fuse T1A 250V,F3,1,TR5 (Littelfuse 372),6,,,Not found yet
+5,NTC inrush 5R,RT1,1,B57236S0509M000,6,13.9,83.4,LCSC C3761585 (reference)
+6,Crystal 25MHz 18pF,Y1,1,ECS-250-18-5PX-TR,6,,,Not found yet
+7,Ferrite bead 1k@100MHz 0805,FB1,1,MPZ2012S102AT000,6,3.32,19.92,LCSC C76817 (reference)
+8,X2 capacitor 0.1uF 275VAC,C16,1,ECQ-UAAF104M,6,,,Not found yet
+9,Electrolytic 10uF 25V THT,C1,1,ECEA1EN100UI,6,,,LCSC out of stock
+10,Electrolytic 100uF 16V THT 5x11,C3,1,ECA-1CM101 / ECA-1CM101I,6,,,LCSC out of stock
+11,Tantalum 10uF 16V 3528,C6,1,TAJB106K016RNJ,6,18.38,110.28,LCSC C7193 (reference)
+12,Capacitor 1nF 2kV 1206,C34,1,C1206C102KGRACAUTO,6,24.52,147.12,LCSC C600002 (reference); Sharvi price Rs 1016
+13,Capacitor 100nF 1206,C8,1,C1206C104K5RACTU,6,4.39,26.34,LCSC C41430990 (reference); missed earlier
+14,Resistor 12.4k 0805 1%,R23,1,ERJ-6ENF1242V,6,,,Not found yet
+15,Terminal 2-pin 5.08mm (mains in),J1,1,TB007-508-02BE,6,48.85,293.1,LCSC C3816270 (reference)
+16,Terminal 3-pin 3.81mm (RS485),J4,1,284513-3,6,,,Not found yet
+17,Pluggable terminal 2-pin 3.81 (5V DC in),J5,1,TBP02R1-381-02BE + plug,6,,,Not found yet

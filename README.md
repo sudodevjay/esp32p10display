@@ -9,6 +9,10 @@
 - Relay output (SRD-05VDC, NO/COM/NC terminal) on GPIO26, two opto-isolated contact inputs on GPIO34 / GPIO35
 - 10/100 Ethernet: W5500 + HR911105A MagJack
 
+## Order files
+
+Gerber, BOM, CPL, Excel purchase list and board images are all in [`Order_Files/`](Order_Files/).
+
 ## Files
 
 | File | |
